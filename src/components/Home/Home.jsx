@@ -23,11 +23,11 @@ export const Home = () => {
 
         </div>
         <div className='Items'> 
-        <img src='../../Assets/1722913602279.jpeg' className='ProfileImage'></img>
+        <img src='/1722913602279.jpeg' className='ProfileImage'></img>
         </div>
 
         <div className='Buttons'>
-        <a href="../../Assets/Resume.docx" download>
+        <a href="/Resume.docx" download>
         <button type='button' className='Download'>Resume</button>
         </a>
         
@@ -37,7 +37,7 @@ export const Home = () => {
         
         </a>
         <a href="https://github.com/Sahajs04">
-            <img className='GithubImage' src="https://sahajs04.github.io/react-portfolio/Assets/download.png"></img>
+            <img className='GithubImage' src="/download.png"></img>
         </a>
         </div>
         </section>
