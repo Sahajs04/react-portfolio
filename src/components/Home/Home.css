@@ -1,0 +1,136 @@
+/*overwrites default html*/
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+.About {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center the content horizontally */
+    padding: 60px; /* Add spacing around the section */
+    background: linear-gradient(135deg, #B25368, #A63C58); /* Gradient maroon */
+    color: #FFFFFF;
+}
+
+
+.ProfileImage{
+    flex: 1; /* Allow the profile section to take 1 part of the container */
+    text-align: center; /* Center the image */
+    border-radius: 100%;
+    object-fit: cover; /* Ensure image fits within bounds */
+    margin-bottom: 20px; /* Add space below the image */
+    width: 75%;
+    margin-right: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+
+    
+}
+
+
+.Description{
+    flex: 2; /* Allow the text section to take more space */
+     /* Add space between text and image */
+    justify-items: safe;
+    padding-right: 40px;
+
+}
+
+.Name
+{
+   
+   padding-left: 100px;
+    
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.Paragraph{
+    
+    padding-left: 95px;
+    font-size: 1.2rem; /* Slightly smaller text */
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
+
+.Internshp{
+    margin-top: 5px;
+    padding-left: 95px;
+    font-size: 1.2rem; /* Slightly smaller text */
+    line-height: 1.8;
+    margin-bottom: 5px;
+}
+
+.BulletPoints{
+    padding-left: 125px;
+    margin-top: 5px;
+}
+
+
+.Connect{
+    padding-left: 95px;
+    font-size: 1.2rem; /* Slightly smaller text */
+    line-height: 1.8;
+}
+
+.Buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding-right: 50px;
+   
+    
+}
+
+.Download{
+    border-radius: 25px;
+    cursor: pointer;
+    border: #A63C58;
+    border-width: 5px;
+    border-style: double;
+    flex:1;
+    background-color: #E87722;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Download:hover {
+    background-color: #C7651C;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Contact{
+    border-radius: 25px;
+    cursor: pointer;
+    border: #C7651C;
+    border-width: 5px;
+    border-style: double;
+    flex:1;
+    background-color: #861F41;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.Contact:hover{
+    background-color: #861f41a0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.GithubImage{
+    border-radius: 100%;
+    width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+
