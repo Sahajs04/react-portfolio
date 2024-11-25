@@ -4,7 +4,7 @@ import './Home.css';
 
 //Fix Issue where images only show up when In same folder
 export const Home = () => {
-    return( <section className='About'>
+    return( <section id='About' className='About'>
 
        <div className='Description'>
         <h1 className='Name'>Hi, I'm Sahaj</h1>

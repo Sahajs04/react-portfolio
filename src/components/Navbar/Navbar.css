@@ -1,9 +1,9 @@
 .NavigationBar {
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    width: 100%;
     z-index: 2;
     background-color:#861F41;
     padding-left: 10px;
@@ -22,6 +22,7 @@ html, body {
 
 .NavigationBar a {
     text-decoration: none;
+    padding-right: 20px;
 
 }
 
