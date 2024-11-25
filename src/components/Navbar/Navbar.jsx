@@ -3,13 +3,11 @@ import './Navbar.css';
 
 export const Navbar = () => {
     return <nav className="NavigationBar">
-        <a href="/" className="HomeButton">Home</a>
+        <a href="#home" className="HomeButton">Home</a>
 
         <div>
         <ul className="ElementsList">
-            <li>
-                <a href="#about">About</a>
-                </li>
+            
                 <li>
                 <a href="#projects">Projects</a>
                 </li>
