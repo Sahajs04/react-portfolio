@@ -23,7 +23,7 @@ export const Home = () => {
 
         </div>
         <div className='Items'> 
-        <img src='/1722913602279.jpeg' className='ProfileImage'></img>
+        <img src='../../public/1722913602279.jpeg' className='ProfileImage'></img>
         </div>
 
         <div className='Buttons'>
